@@ -1,0 +1,13 @@
+*{
+  background-color: black;
+}
+button{
+  background-color: aliceblue;
+  color: black;
+  padding: 6px;
+}
+.big-div{
+  height: 100vh;
+  width: 100vw;
+  background: #000;
+}
