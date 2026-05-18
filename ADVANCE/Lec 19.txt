@@ -1,0 +1,32 @@
+oky agar use state ki value 0 hai initially and wo nav bar ke kisi component mai hai to use state ki initial value tabtak nahi change hogi jabtak  re render nahi hoga until then wo array mai store and update karata jaaega aur values badhti jaaegi
+
+setProduct((productData)=>{productData+1})
+this will get the latest previous data which was processed so we will get the updated value 
+
+
+React.memo -- provides unnecessary re running 
+export default React.memo(header);
+
+Headless UI .com -----------------------for UI
+
+
+React ROuter
+npm install react-router-dom
+
+const isRewardPage=window.location.pathname==="/rewards";
+
+{isRewardPage && <RewardPage/>}
+
+alternate method using browser router
+npm install @types/react-router-dom (for typescript)
+
+<BrowserRouter>
+    <Switch>
+        <Route path="/abc">
+            <abc/>
+        </Route>
+    </Switch>
+</BrowserRouter>
+
+
+the use of switch is---pehla matching case show ho jaaega multiple nahi show hoga

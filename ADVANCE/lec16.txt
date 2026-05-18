@@ -1,0 +1,62 @@
+//Object destructing 
+const user={
+    fname: "Satyam"
+    age: 19
+    Company: "Microsoft"
+
+}
+
+destructing Type 1) const {name , Company}=use // This will automatically assign the key value to the name and the value's vlaue to the user
+
+Type 2) Const {fname: n, age: a , ...bacheHue }=user // This will automaticllay assign the value of fname to n and the value of age to the a variable named and the rest of the objects will be assigned to the bachehue a an object ...- is called spread operator
+
+
+//Object structring 
+const fname='satyam'
+const age=19 
+const city="Renukoot"
+const Gender="Male"
+
+const user={
+    fname:fname
+    age:age
+    city:city
+    Gender:Gender
+}
+
+//Concept 
+
+Const myKey= (imput from user)
+const user= {[myKey],fname:name ,c:class ,...rest}
+
+
+SEO(Search Engine Optimization)
+1)On Page---Webiste mai hi aisi cheezein likhe right keyword likhe ki wo uper aa jaaye 
+2)Off page --hum apne website ka link dusre website pe dalwaye blogs wagera mai 
+
+Agar Js use kr rhe hai to jab website load hogi to usska page source 0 hoga 
+
+We use Gatsby(generate react page into html kinda ) -- and Next.js(server site renedering---Page server site pe render hogi)
+
+Content Delivery network- jab data load hoga to sabse pass wale node se load ho jaaega
+
+
+>>Jo pehla page hai wo server site se render hogi but eek page se dusare pe jaaenge to cliet site se load hogi 
+Next js is mix of client site and server site
+
+
+----------------------------------------------------------------------------------------------
+
+Imports-
+1) import {websiteName , websiteDomain} from "./test"; or  import {websiteName as dataone, websiteDomain as dataTwo} from "./test";
+
+in test----const websiteName=havjsdhv and const websiteDomain=jhsvcjD
+
+
+
+2) import * as myData from "./test"
+when use {myData.websiteDomain}
+
+
+3)Default export
+import add form "./test" or     import add , {websiteDomain} form "./test" 

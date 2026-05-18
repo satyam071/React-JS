@@ -1,0 +1,7 @@
+React is a library but Create React App is a react framework
+
+<a href="" targe="_blank" rel="noopener">
+preventing the newly opened website from accessing your original page's data or maliciously redirecting it
+
+
+axios.get("link").then((data)=> console.log(data));

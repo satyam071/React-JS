@@ -1,0 +1,35 @@
+useEffect
+Syncronous-Saath mai hi run hoga DOM ke
+ASync - Baad mai kabhi run hoga
+
+> For example jaise koi work assign kiya gaya ki excel sheet pe xyz work krna hai to 2 cheez hogi 
+1) ya to hum wait kare ki usska kaam khatam ho tab hume data mile 
+
+
+-------------------------------
+const data =[1,2,3,4,5]
+data.map(item=>{
+    console.log(item);
+})----------> this will return array of the data
+
+or data.forEach(item=>{
+    console.log(item);
+})-------------> this will simply return the function
+
+data.filter(item=>{
+    console.log(item);
+    return item>5
+})------------->this will filter out and retrun the array of the outputted value
+
+
+Reduce----
+const xyz=myArray.reduce((previous,item)=>{
+    return prev+item
+},0)--------previous mai pichle iteration ka result assign hoga aur item mai current iteration ki value assign hogi, assign 0 as initial prev value
+
+
+to duck this Call Back is used ki bhaiya jab function complete ho jaaye to mereko call back kr dena
+
+
+Catch & Throw---------
+
