@@ -1,0 +1,17 @@
+every time when you fetch the data from the API key, you must need to define the data type of the incoming object(lec 25 A) and then integrate with axios (Lec 25 B).
+
+
+
+normal way to fetch the data is use of axios 
+axios.get("https").then(abc)
+
+but this will create a call back hell so to duck this we use 
+Async Await function
+
+const data = async(page:number) =>{
+    return const response= await axios.get("Https")
+
+}
+Function 1-----------
+Function 2------------
+this will act as then function so when the async will complete fetching then only these functions will occur
